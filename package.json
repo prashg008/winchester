@@ -19,7 +19,7 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.1",
+    "css-loader": "^3.5.2",
     "react": "^16.13.1",
     "react-hot-loader": "^4.12.20",
     "webpack": "^4.42.1",
