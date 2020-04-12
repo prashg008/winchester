@@ -20,6 +20,5 @@ TODO
 - 
 - Setup production settings 
 - Add celery Config 
-- setup Asgi server 
 - dockerize the setup
 - add redux config for react 
