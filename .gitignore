@@ -67,6 +67,10 @@ static/
 instance/
 .webassets-cache
 
+
+# clelry stuff:
+celerybeat-schedule
+
 # Scrapy stuff:
 .scrapy
 

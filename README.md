@@ -19,6 +19,5 @@ To setup the project
 TODO 
 - 
 - Setup production settings 
-- Add celery Config 
 - dockerize the setup
 - add redux config for react 
