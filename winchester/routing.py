@@ -5,8 +5,8 @@ from .urls import websocket_urlpatterns
 
 application = ProtocolTypeRouter({
     "websocket": AuthMiddlewareStack(
-        URLRouter([
+        URLRouter(
             websocket_urlpatterns
-        ])
+        )
     ),
 })
