@@ -90,7 +90,7 @@ AWS_S3_REGION_NAME = os.getenv("DJANGO_AWS_S3_REGION_NAME", None)
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # MEDIA
 # ------------------------------------------------------------------------------
-DEFAULT_FILE_STORAGE = "temp.utils.storages.MediaRootS3Boto3Storage"
+DEFAULT_FILE_STORAGE = "apps.utils.storages.MediaRootS3Boto3Storage"
 MEDIA_URL = f"https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/media/"
 
 # TEMPLATES
